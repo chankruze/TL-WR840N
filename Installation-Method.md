@@ -1,5 +1,6 @@
 
 # Flashing Firmware In TL-TW840N-v3
+The following method is also applicable for debricking if your router is bricked.It is safe and easy.
 
 ## TFTP recovery via bootloader
 

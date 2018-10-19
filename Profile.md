@@ -54,13 +54,15 @@ The detailed details of the device.
 - Ethernet Gbit ports: No
 
 ### Links
-- WikiDevi URL: https://wikidevi.com/wiki/TP-LINK_TL-WR840N_v3
-- OEM Device Homepage URL: http://www.tp-link.com/en/products/details/TL-WR840N.html
-- Firmware OEM Stock URL: http://www.tp-link.com/en/download/TL-WR840N_V3.html
-- Firmware OpenWrt Install URL: http://downloads.openwrt.org/releases/18.06.1/targets/ar71xx/tiny/openwrt-18.06.1-ar71xx-tiny-tl-wr840n-v3-squashfs-factory.bin
-- Firmware OpenWrt Upgrade URL: http://downloads.openwrt.org/releases/18.06.1/targets/ar71xx/tiny/openwrt-18.06.1-ar71xx-tiny-tl-wr840n-v3-squashfs-sysupgrade.bin
-- Firmware OpenWrt snapshot Install URL: http://downloads.openwrt.org/snapshots/targets/ar71xx/tiny/openwrt-ar71xx-tiny-tl-wr840n-v3-squashfs-factory.bin
-- Firmware OpenWrt snapshot Upgrade URL: http://downloads.openwrt.org/snapshots/targets/ar71xx/tiny/openwrt-ar71xx-tiny-tl-wr840n-v3-squashfs-sysupgrade.bin
+- [WikiDevi URL](https://wikidevi.com/wiki/TP-LINK_TL-WR840N_v3)
+- [OEM Device Homepage URL](http://www.tp-link.com/en/products/details/TL-WR840N.html)
+- [OEM Device Source Code](https://www.tp-link.com/in/download/TL-WR840N_V3.html#GPL-Code)
+- [OEM Emulator](https://www.tp-link.com/resources/simulator/EMULATOR_wr840nv3_eu_new/userRpm/Index.htm)
+- [Firmware OEM Stock URL](http://www.tp-link.com/en/download/TL-WR840N_V3.html)
+- [Firmware OpenWrt Install URL](http://downloads.openwrt.org/releases/18.06.1/targets/ar71xx/tiny/openwrt-18.06.1-ar71xx-tiny-tl-wr840n-v3-squashfs-factory.bin)
+- [Firmware OpenWrt Upgrade URL](http://downloads.openwrt.org/releases/18.06.1/targets/ar71xx/tiny/openwrt-18.06.1-ar71xx-tiny-tl-wr840n-v3-squashfs-sysupgrade.bin)
+- [Firmware OpenWrt snapshot Install URL](http://downloads.openwrt.org/snapshots/targets/ar71xx/tiny/openwrt-ar71xx-tiny-tl-wr840n-v3-squashfs-factory.bin)
+- [Firmware OpenWrt snapshot Upgrade URL](http://downloads.openwrt.org/snapshots/targets/ar71xx/tiny/openwrt-ar71xx-tiny-tl-wr840n-v3-squashfs-sysupgrade.bin)
 
 ### Others
 - GPIOs: No
