@@ -14,5 +14,6 @@ cd openwrt
 ./scripts/feeds install -a
 wget https://raw.githubusercontent.com/chankruze/TL-WR840N/configs/TL_WR840N_v2_defconfig
 make TL_WR840N_v2_defconfig
+make defconfig
 make download
 make -j4
