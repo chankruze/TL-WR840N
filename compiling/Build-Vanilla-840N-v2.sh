@@ -12,7 +12,7 @@ git clone https://www.github.com/openwrt/openwrt -b openwrt-18.06
 cd openwrt
 ./scripts/feeds update -a
 ./scripts/feeds install -a
-wget https://raw.githubusercontent.com/chankruze/TL-WR840N/v2.0/compiling/TL_WR840N_v2_defconfig
+wget https://raw.githubusercontent.com/chankruze/TL-WR840N/configs/TL_WR840N_v2_defconfig
 make TL_WR840N_v2_defconfig
 make download
 make -j4
