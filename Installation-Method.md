@@ -15,8 +15,6 @@ As most other current TP-Link routers this device can be flashed and debricked w
    
    ![New Life](https://image.ibb.co/dx4Gko/IMG_20180520_232938.jpg)
 
-**:!:WARNING! For hardware version 13, it is very likely that u-boot will be erased while using this method, as most mediatek SOC models tend to! Therefore, do NOT flash sysupgrade image using TFTP! Instead, follow the instructions described here: tftp_recovery_de-bricking for the factory image, for OpenWrt image, you must append the bootloader using dd. If the bootloader gets overwritten, the only way out is to use a SPI flash programmer to reflash it.**
-
 TFTP server log may contain info about firmware image name that router requested. Something like: `Read request for file <wr841nv8_tp_recovery.bin> . Mode octet [21/11 09:45:27.574] `
 
 For example log in my case:
@@ -33,6 +31,15 @@ File <wr840nv2_en_tp_recovery.bin> : error 2 in system call CreateFile The syste
 Connection received from 192.168.0.86 on port 3496 [20/05 10:54:33.051]
 Read request for file <wr840nv2_en_tp_recovery.bin>. Mode octet [20/05 10:54:33.051]
 File <wr840nv2_en_tp_recovery.bin> : error 2 in system call CreateFile The system cannot find the file specified. [20/05 10:54:33.051]
+```
+
+on success your log may look like this:
+```
+Connection received from 192.168.0.86 on port 4028 [05/12 01:01:03.988]
+Read request for file <wr840nv2_en_tp_recovery.bin>. Mode octet [05/12 01:01:03.988]
+OACK: <timeout=2,> [05/12 01:01:03.988]
+Using local port 50651 [05/12 01:01:03.988]
+<wr840nv2_en_tp_recovery.bin>: sent 7938 blks, 4063744 bytes in 8 s. 0 blk resent [05/12 01:01:11.098]
 ```
 ## Downloads
 - [tftpd64](https://bitbucket.org/phjounin/tftpd64/wiki/Download%20Tftpd64)
